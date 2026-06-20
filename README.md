@@ -55,13 +55,13 @@ Or run the bundled check (n = 3 reproduction, then certificates if `pycddlib` is
 |---|---|---|
 | `independent_verification/` | Third-party stdlib reproduction of the *n* = 3 census + recorded output | Python 3.10+ stdlib (no deps) |
 | `computational_supplement_20260610/` | `sag.py` (exact-arithmetic library), `analysis.py` (n = 3/4 census + hiding checks), `RESULTS.md`, run log | Python 3 + **pycddlib** |
-| `certificate_supplement_20260610/` | `certificates.json` + `verify_certificates.py` + `MANIFEST.sha256` | Python 3.10+ stdlib (no deps) |
+| `certificate_supplement_20260610/` | `certificates.json` + `verify_certificates.py` + `MANIFEST.sha256` | Python 3.10+ + pycddlib |
 | `n5_orbit_census_20260610/` | `orbit_census.ts` (reference) + `rust-helper/` (fast Burnside generation) + `eval_b5_reps.py` (exact evaluation) + reports | TypeScript (Bun), Rust (cargo), Python 3 |
 | `n5_probe_20260610/` | targeted *n* = 5 probes + recorded results | Python 3 |
 
 ## Full reproduction
 
-**Dependencies.** `analysis.py` and the *n* = 5 evaluation (`eval_b5_reps.py`) use exact polyhedral vertex enumeration via **pycddlib** (cddlib over GMP). The *n* = 5 orbit *generation* uses **Bun** (TypeScript) and **cargo** (Rust). The independent *n* = 3 verifier and `verify_certificates.py` are **pure standard library** (Python 3.10+, no install).
+**Dependencies.** `analysis.py`, `verify_certificates.py` (via `sag.py`), and the *n* = 5 evaluation (`eval_b5_reps.py`) use exact polyhedral vertex enumeration via **pycddlib** (cddlib over GMP). The *n* = 5 orbit *generation* uses **Bun** (TypeScript) and **cargo** (Rust). The only fully self-contained check is the independent *n* = 3 verifier in `independent_verification/` — **pure standard library, Python 3.10+, no install**.
 
 ```sh
 python3 -m pip install -r requirements.txt      # pycddlib
