@@ -1,22 +1,32 @@
 #!/usr/bin/env bash
-# Zero-dependency confidence check.
-#   [1] Reproduces the full n=3 census with the Python standard library only.
-#   [2] Verifies recorded certificates if pycddlib is available (else skips).
-# No network or install is required for step [1].
+# Zero-dependency confidence check (no install, no network).
+#   [1] Reproduces the full n=3 census (independent third-party verifier).
+#   [2] Verifies the recorded certificates.
+# Both steps use only the Python 3 standard library and require Python >= 3.10
+# (the scripts use int.bit_count). This script auto-selects a suitable python.
 set -euo pipefail
 here="$(cd "$(dirname "$0")" && pwd)"
 
+pick_python() {
+  for p in python3.13 python3.12 python3.11 python3.10 python3; do
+    if command -v "$p" >/dev/null 2>&1 \
+       && "$p" -c 'import sys;exit(0 if sys.version_info[:2]>=(3,10) else 1)' 2>/dev/null; then
+      command -v "$p"; return 0
+    fi
+  done
+  return 1
+}
+
+PY="$(pick_python)" || { echo "ERROR: need Python >= 3.10 on PATH (scripts use int.bit_count)."; exit 1; }
+echo "Using: $PY ($("$PY" -V 2>&1))"
+
+echo
 echo "== [1/2] Independent n=3 census reproduction (stdlib only) =="
-python3 "$here/independent_verification/ThreePortCensus-IndependentVerifier.py"
+"$PY" "$here/independent_verification/ThreePortCensus-IndependentVerifier.py"
 
 echo
-echo "== [2/2] Certificate verification =="
-if python3 -c 'import cdd' >/dev/null 2>&1; then
-  ( cd "$here/certificate_supplement_20260610" && python3 verify_certificates.py )
-else
-  echo "SKIP: pycddlib not installed (run: python3 -m pip install -r requirements.txt)."
-  echo "      The n=3 reproduction in step [1] already passed with zero dependencies."
-fi
+echo "== [2/2] Certificate verification (stdlib only) =="
+( cd "$here/certificate_supplement_20260610" && "$PY" verify_certificates.py )
 
 echo
-echo "Quick check complete."
+echo "Quick check complete — both steps reproduced with zero third-party dependencies."
