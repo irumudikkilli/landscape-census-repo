@@ -1,0 +1,43 @@
+[    0.0s] starting n=5 probe {'seed': 20260610, 'region_samples': 2500, 'active_samples': 30000, 'parent_samples': 3000, 'q4_candidates': 12, 'workers': 8}
+[    2.2s] loaded n=4 census/orbits 65536 402
+[    2.2s] checking cylindrical lifts of all nonintegral n=4 orbit reps
+[    2.3s] verifying explicit n=5 determinant-4 certificate
+[    2.3s] sampling random n=5 interval-generated regions
+[    2.6s] random-region worker complete 1 / 8
+[    2.6s] random-region worker complete 2 / 8
+[    2.6s] random-region worker complete 3 / 8
+[    2.6s] random-region worker complete 4 / 8
+[    2.6s] random-region worker complete 5 / 8
+[    2.6s] random-region worker complete 6 / 8
+[    2.6s] random-region worker complete 7 / 8
+[    2.6s] random-region worker complete 8 / 8
+[    2.7s] searching random active-row determinant systems
+[    3.4s] active-row worker complete 1 / 8
+[    3.4s] active-row worker complete 2 / 8
+[    3.4s] active-row worker complete 3 / 8
+[    3.4s] active-row worker complete 4 / 8
+[    3.4s] active-row worker complete 5 / 8
+[    3.4s] active-row worker complete 6 / 8
+[    3.4s] active-row worker complete 7 / 8
+[    3.4s] active-row worker complete 8 / 8
+[    3.4s] sampling 5->4 universal shadows from integral n=5 parents
+[    6.1s] shadow worker complete 1 / 8
+[    6.1s] shadow worker complete 2 / 8
+[    6.1s] shadow worker complete 3 / 8
+[    6.1s] shadow worker complete 4 / 8
+[    6.2s] shadow worker complete 5 / 8
+[    6.2s] shadow worker complete 6 / 8
+[    6.2s] shadow worker complete 7 / 8
+[    6.2s] shadow worker complete 8 / 8
+[    6.2s] probing seam-2 one-hidden repair for selected visible n=5 examples
+[    6.2s] Q4 seam-2 candidate 1 states 10 found True
+[    6.2s] Q4 seam-2 candidate 2 states 8 found True
+[    6.2s] Q4 seam-2 candidate 3 states 14 found True
+[    6.2s] Q4 seam-2 candidate 4 states 11 found True
+[    6.2s] Q4 seam-2 candidate 5 states 12 found True
+[    6.3s] Q4 seam-2 candidate 6 states 11 found False
+[    6.3s] Q4 seam-2 candidate 7 states 14 found True
+[    6.3s] Q4 seam-2 candidate 8 states 13 found False
+[    6.3s] Q4 seam-2 candidate 9 states 12 found True
+[    6.3s] hard hits ['random_region_denominator_4plus', 'active_row_denominator_4plus', 'explicit_d4_certificate']
+[    6.3s] wrote n5_probe_results_20260610.json

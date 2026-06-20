@@ -1,0 +1,13 @@
+# Full-reproduction dependency for the Python census scripts.
+#
+# pycddlib provides exact polyhedral vertex enumeration (cddlib over GMP
+# rationals), used by computational_supplement_20260610/analysis.py and the
+# certificate / probe scripts.
+#
+# NOTE: the zero-dependency n=3 check in independent_verification/ needs
+# nothing beyond the Python 3 standard library — start there.
+#
+# The original runs used pycddlib inside a micromamba environment. If a newer
+# pycddlib changes the API used by sag.py, pin to the version your environment
+# recorded.
+pycddlib

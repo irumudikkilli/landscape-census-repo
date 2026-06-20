@@ -1,0 +1,796 @@
+{
+  "active_row_search": {
+    "candidate_denominators": {
+      "10": 2,
+      "11": 1,
+      "13": 1,
+      "4": 19,
+      "5": 21,
+      "6": 12,
+      "7": 11,
+      "8": 4
+    },
+    "samples": 30000,
+    "surviving_denominator_4plus_hits": [
+      {
+        "active": [
+          "+1,3 / -2",
+          "+0,3 / --",
+          "+0,1 / -2",
+          "+0 / -2,4",
+          "+1,3 / -4"
+        ],
+        "candidate": "(Fraction(1, 2), Fraction(3, 4), Fraction(1, 4), Fraction(1, 2), Fraction(1, 4))",
+        "candidate_denominator": 4,
+        "spectrum": [
+          1,
+          2,
+          4
+        ],
+        "vertices": [
+          "(Fraction(1, 2), Fraction(3, 4), Fraction(1, 4), Fraction(1, 2), Fraction(1, 4))"
+        ]
+      }
+    ]
+  },
+  "active_samples": 30000,
+  "cylindrical_lifts": {
+    "denominator_4plus_hits": [],
+    "integrality_changed": [],
+    "nonintegral_orbits": 155,
+    "spectra": {
+      "(1, 2)": 137,
+      "(1, 2, 3)": 11,
+      "(1, 3)": 7
+    }
+  },
+  "d4_certificate": {
+    "R": 2919820810,
+    "canonical_count": 5,
+    "canonical_intervals": [
+      "+0 / -2,4",
+      "+1,3 / -4",
+      "+1,3 / -2",
+      "+0,1 / -2",
+      "+0,3 / --"
+    ],
+    "determinant": "-4",
+    "spectrum": [
+      1,
+      2,
+      4
+    ],
+    "states": 14,
+    "vertex": "(Fraction(1, 2), Fraction(3, 4), Fraction(1, 4), Fraction(1, 2), Fraction(1, 4))"
+  },
+  "hard_hits": [
+    "random_region_denominator_4plus",
+    "active_row_denominator_4plus",
+    "explicit_d4_certificate"
+  ],
+  "parent_samples": 3000,
+  "q4_candidates": 12,
+  "q4_small_seam_probe": {
+    "candidate_limit": 12,
+    "tested": [
+      {
+        "R": 167826370,
+        "pairs_tested_after_face_filter": 1,
+        "seam2_parent_found": {
+          "canonical_parent_count": 7,
+          "x0": 1,
+          "x1": 8
+        },
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 10
+      },
+      {
+        "R": 1140854533,
+        "pairs_tested_after_face_filter": 1,
+        "seam2_parent_found": {
+          "canonical_parent_count": 7,
+          "x0": 2,
+          "x1": 10
+        },
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 8
+      },
+      {
+        "R": 2162831610,
+        "pairs_tested_after_face_filter": 1,
+        "seam2_parent_found": {
+          "canonical_parent_count": 5,
+          "x0": 22,
+          "x1": 31
+        },
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 14
+      },
+      {
+        "R": 3504291840,
+        "pairs_tested_after_face_filter": 1,
+        "seam2_parent_found": {
+          "canonical_parent_count": 6,
+          "x0": 14,
+          "x1": 28
+        },
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 11
+      },
+      {
+        "R": 520763136,
+        "pairs_tested_after_face_filter": 1,
+        "seam2_parent_found": {
+          "canonical_parent_count": 7,
+          "x0": 9,
+          "x1": 10
+        },
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 12
+      },
+      {
+        "R": 1104170308,
+        "pairs_tested_after_face_filter": 0,
+        "seam2_parent_found": null,
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 11
+      },
+      {
+        "R": 824119327,
+        "pairs_tested_after_face_filter": 1,
+        "seam2_parent_found": {
+          "canonical_parent_count": 6,
+          "x0": 12,
+          "x1": 24
+        },
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 14
+      },
+      {
+        "R": 1677845559,
+        "pairs_tested_after_face_filter": 0,
+        "seam2_parent_found": null,
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 13
+      },
+      {
+        "R": 263127554,
+        "pairs_tested_after_face_filter": 2,
+        "seam2_parent_found": {
+          "canonical_parent_count": 9,
+          "x0": 1,
+          "x1": 17
+        },
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 12
+      }
+    ]
+  },
+  "random_n5_regions": {
+    "denominator_4plus_hits": [
+      {
+        "R": 1863278491,
+        "canonical_count": 9,
+        "intervals": [
+          "+0,1 / -3,4",
+          "+0 / -2",
+          "+1,3 / -0",
+          "+1,4 / -0,2",
+          "+0,2,3,4 / -1",
+          "+0,1,3 / -2,4",
+          "+- / -1,2",
+          "+2 / -0,1,4"
+        ],
+        "spectrum": [
+          1,
+          4
+        ],
+        "vertices": [
+          "(Fraction(3, 4), Fraction(1, 4), Fraction(3, 4), Fraction(3, 4), Fraction(3, 4))"
+        ]
+      },
+      {
+        "R": 3306553296,
+        "canonical_count": 9,
+        "intervals": [
+          "+1,2,3 / --",
+          "+1,2,3 / -0,4",
+          "+1,3 / -4",
+          "+4 / -0,2",
+          "+3 / -4",
+          "+1,2,3 / -0",
+          "+2 / -0,1,3",
+          "+1,2 / -3,4"
+        ],
+        "spectrum": [
+          1,
+          2,
+          4
+        ],
+        "vertices": [
+          "(Fraction(1, 4), Fraction(3, 4), Fraction(3, 4), Fraction(1, 2), Fraction(1, 2))"
+        ]
+      },
+      {
+        "R": 3808149600,
+        "canonical_count": 9,
+        "intervals": [
+          "+0,2 / -1,3,4",
+          "+1,2,3 / --",
+          "+0,4 / -3",
+          "+1,2 / -0,3",
+          "+0,4 / -1",
+          "+4 / -0,1,3"
+        ],
+        "spectrum": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "vertices": [
+          "(Fraction(3, 4), Fraction(1, 4), Fraction(3, 4), Fraction(1, 4), Fraction(1, 2))"
+        ]
+      },
+      {
+        "R": 3522953461,
+        "canonical_count": 7,
+        "intervals": [
+          "+3,4 / -0,1",
+          "+1,4 / -3",
+          "+0,1,2,4 / --",
+          "+- / -0,1,3,4",
+          "+2 / -3",
+          "+1,2,3,4 / --",
+          "+1 / -0,3,4"
+        ],
+        "spectrum": [
+          1,
+          2,
+          4
+        ],
+        "vertices": [
+          "(Fraction(1, 4), Fraction(3, 4), Fraction(1, 2), Fraction(1, 2), Fraction(3, 4))"
+        ]
+      },
+      {
+        "R": 930553371,
+        "canonical_count": 10,
+        "intervals": [
+          "+1,4 / -0,3",
+          "+1,3 / -0,2",
+          "+2,3 / -0,1",
+          "+4 / -1",
+          "+0 / -2,4",
+          "+- / -0,1,3",
+          "+3,4 / -0,1"
+        ],
+        "spectrum": [
+          1,
+          2,
+          4
+        ],
+        "vertices": [
+          "(Fraction(1, 4), Fraction(1, 2), Fraction(1, 4), Fraction(1, 4), Fraction(1, 2))"
+        ]
+      },
+      {
+        "R": 1433760597,
+        "canonical_count": 6,
+        "intervals": [
+          "+2 / -0",
+          "+3 / -1,4",
+          "+- / -0,3",
+          "+3,4 / -0,2",
+          "+2,4 / -1,3"
+        ],
+        "spectrum": [
+          1,
+          4
+        ],
+        "vertices": [
+          "(Fraction(3, 4), Fraction(1, 4), Fraction(3, 4), Fraction(1, 4), Fraction(3, 4))"
+        ]
+      }
+    ],
+    "max_denominator": 4,
+    "nonintegral_examples": [
+      {
+        "R": 4272094643,
+        "canonical_count": 10,
+        "intervals": [
+          "+- / -1,2,3,4",
+          "+0,2 / -1",
+          "+2,3 / --",
+          "+0,2 / -3",
+          "+0,1,2,3 / -4",
+          "+- / -0,1,4",
+          "+1,3 / --",
+          "+0,4 / -1"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 22
+      },
+      {
+        "R": 2142376226,
+        "canonical_count": 8,
+        "intervals": [
+          "+3 / -0,1",
+          "+1,2,3,4 / -0",
+          "+3,4 / -1",
+          "+0,1,2,4 / -3",
+          "+0 / -1,3",
+          "+0 / -1,3,4",
+          "+2,4 / -1",
+          "+3,4 / -2"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 15
+      },
+      {
+        "R": 167826370,
+        "canonical_count": 7,
+        "intervals": [
+          "+0 / -1,2,4",
+          "+3 / -0,1,4",
+          "+1,2 / -4",
+          "+0,3,4 / -2",
+          "+0,3,4 / -1,2"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 10
+      },
+      {
+        "R": 1439463253,
+        "canonical_count": 5,
+        "intervals": [
+          "+1,2,3,4 / -0",
+          "+2,3,4 / -0,1",
+          "+- / -0,1,3,4",
+          "+0,3 / -1,2,4",
+          "+0,1,4 / -3",
+          "+0,3 / -1,4",
+          "+3 / -0,1",
+          "+1 / -0"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 18
+      },
+      {
+        "R": 4025439581,
+        "canonical_count": 7,
+        "intervals": [
+          "+0,4 / --",
+          "+3,4 / -2",
+          "+- / -0,4",
+          "+1,4 / -0",
+          "+2 / -0,1,3,4",
+          "+- / -0,2",
+          "+4 / -0,2",
+          "+0,1 / -2,3,4"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 23
+      },
+      {
+        "R": 1140854533,
+        "canonical_count": 4,
+        "intervals": [
+          "+- / -0,2,3,4",
+          "+3 / -2,4",
+          "+1,3,4 / -0"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 8
+      },
+      {
+        "R": 2162831610,
+        "canonical_count": 5,
+        "intervals": [
+          "+1,2 / -3",
+          "+2 / -3,4",
+          "+2 / -0,1,3,4",
+          "+0 / -1,3",
+          "+2,3 / -1,4",
+          "+0,1,2,4 / --",
+          "+0 / -2,3"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 14
+      },
+      {
+        "R": 4155615904,
+        "canonical_count": 8,
+        "intervals": [
+          "+2,4 / -0,1,3",
+          "+0,2 / --",
+          "+0,2,4 / -3",
+          "+0,3,4 / -1,2",
+          "+0,3 / -4",
+          "+0,1,2,3,4 / --",
+          "+1,3,4 / -0",
+          "+4 / -0,1"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 17
+      },
+      {
+        "R": 2846882478,
+        "canonical_count": 8,
+        "intervals": [
+          "+4 / -2,3",
+          "+0 / -2,3,4",
+          "+0,3 / -4",
+          "+2,3 / -4",
+          "+1 / -0,2,3",
+          "+4 / -0,1,2",
+          "+0,2 / -1",
+          "+0,1 / --"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 21
+      },
+      {
+        "R": 3486899609,
+        "canonical_count": 13,
+        "intervals": [
+          "+4 / -0,1,3",
+          "+- / -0,1,2",
+          "+0,1 / -3,4",
+          "+2 / -0,1,4",
+          "+0,1,2,4 / -3",
+          "+1,4 / -0",
+          "+3,4 / -2",
+          "+1,3 / --"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 21
+      },
+      {
+        "R": 2713797887,
+        "canonical_count": 7,
+        "intervals": [
+          "+1,3 / -0,4",
+          "+1,2 / -3",
+          "+2 / -1,3,4",
+          "+- / -2,3,4",
+          "+1,2,3 / -0,4",
+          "+0,2,3,4 / --",
+          "+4 / -0,1,2"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 16
+      },
+      {
+        "R": 3504291840,
+        "canonical_count": 6,
+        "intervals": [
+          "+2,4 / -0",
+          "+1,2,4 / --",
+          "+4 / -2,3",
+          "+1,2,3 / -0,4"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 11
+      },
+      {
+        "R": 1464242111,
+        "canonical_count": 10,
+        "intervals": [
+          "+2,3,4 / -0,1",
+          "+3 / -1,2",
+          "+1,4 / -0",
+          "+- / -1,3,4",
+          "+0,1 / -4",
+          "+- / -1,2,3,4",
+          "+1 / -0,2",
+          "+0 / -1,2"
+        ],
+        "spectrum": [
+          1,
+          3
+        ],
+        "states": 20
+      },
+      {
+        "R": 235720652,
+        "canonical_count": 4,
+        "intervals": [
+          "+1 / -0,3,4",
+          "+1,3,4 / -2",
+          "+1,2 / -4",
+          "+0,3 / -1,2",
+          "+3 / -2,4",
+          "+1 / -4",
+          "+1 / -2,3"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 15
+      },
+      {
+        "R": 2207060383,
+        "canonical_count": 8,
+        "intervals": [
+          "+- / -0,2,3",
+          "+3,4 / -1,2",
+          "+- / -0,2,3,4",
+          "+0,1,2,3,4 / --",
+          "+- / -0,1,4",
+          "+0,1 / -3",
+          "+- / -2,3,4",
+          "+- / -0,1,2,4"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 15
+      },
+      {
+        "R": 1145547707,
+        "canonical_count": 6,
+        "intervals": [
+          "+0,3 / -1,4",
+          "+2 / -0,1,3,4",
+          "+- / -0,1,2,4",
+          "+- / -1,2,3",
+          "+1,2,4 / -0,3",
+          "+1,4 / -0",
+          "+0 / -4"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 17
+      },
+      {
+        "R": 2630941944,
+        "canonical_count": 9,
+        "intervals": [
+          "+2,3,4 / -0,1",
+          "+2 / -0,1",
+          "+1,3 / -2",
+          "+0,1,2 / --",
+          "+0,1 / -2,4",
+          "+1,2,4 / -3",
+          "+2 / -4"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 18
+      },
+      {
+        "R": 3268752151,
+        "canonical_count": 8,
+        "intervals": [
+          "+2,3 / -1,4",
+          "+0,3 / -1,2",
+          "+- / -0,2,3,4",
+          "+4 / -0,3",
+          "+2 / -0,1,3,4",
+          "+1,2,4 / --",
+          "+- / -1,2,4"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 16
+      },
+      {
+        "R": 520763136,
+        "canonical_count": 6,
+        "intervals": [
+          "+3 / -1,4",
+          "+0,4 / -2",
+          "+3 / -0,2",
+          "+2,3,4 / -0,1"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 12
+      },
+      {
+        "R": 1104170308,
+        "canonical_count": 7,
+        "intervals": [
+          "+3 / -0,1,2",
+          "+3,4 / -0,1,2",
+          "+1,3 / -0,2,4",
+          "+1,2 / -0",
+          "+1,3 / -2,4",
+          "+2,4 / -0,1,3",
+          "+1,2,4 / -3",
+          "+1 / -0,3,4"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 11
+      },
+      {
+        "R": 1348228063,
+        "canonical_count": 8,
+        "intervals": [
+          "+1 / -2,3",
+          "+2 / -0",
+          "+- / -1,2,4",
+          "+1 / -3,4"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 17
+      },
+      {
+        "R": 4177473710,
+        "canonical_count": 7,
+        "intervals": [
+          "+2,3 / -1,4",
+          "+1 / -0,2,3",
+          "+1,4 / -0,3",
+          "+1 / -2,3",
+          "+0,1,4 / -2",
+          "+2,3,4 / --",
+          "+4 / -1,3",
+          "+0 / -3"
+        ],
+        "spectrum": [
+          1,
+          2,
+          3
+        ],
+        "states": 20
+      },
+      {
+        "R": 824119327,
+        "canonical_count": 5,
+        "intervals": [
+          "+4 / -0,1",
+          "+- / -2,3",
+          "+0,2,3,4 / -1",
+          "+2 / -0,1,4",
+          "+4 / -0,1,2"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 14
+      },
+      {
+        "R": 1677845559,
+        "canonical_count": 9,
+        "intervals": [
+          "+1,3 / -0",
+          "+0,2,3,4 / -1",
+          "+- / -1,3,4",
+          "+1,2,3 / -4",
+          "+1 / -0,2,3,4",
+          "+0,2,3 / -4",
+          "+4 / -0,1,2,3"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 13
+      },
+      {
+        "R": 263127554,
+        "canonical_count": 3,
+        "intervals": [
+          "+4 / -0,2,3",
+          "+0,4 / -3",
+          "+0 / -1,2",
+          "+0,1,4 / -2",
+          "+4 / -2"
+        ],
+        "spectrum": [
+          1,
+          2
+        ],
+        "states": 12
+      }
+    ],
+    "samples": 2500,
+    "spectra": {
+      "(1, 2)": 616,
+      "(1, 2, 3)": 48,
+      "(1, 2, 3, 4)": 1,
+      "(1, 2, 4)": 3,
+      "(1, 3)": 43,
+      "(1, 4)": 2,
+      "(1,)": 1787
+    }
+  },
+  "region_samples": 2500,
+  "seed": 20260610,
+  "universal_shadow_sample": {
+    "integral_parents": 2103,
+    "mixed_ports": 5591,
+    "outside_n4_denominator_hits": [],
+    "samples": 3000,
+    "shadow_spectra": {
+      "()": 250,
+      "(1, 2)": 291,
+      "(1, 3)": 6,
+      "(1,)": 5044
+    },
+    "violations": 297
+  },
+  "workers": 8
+}

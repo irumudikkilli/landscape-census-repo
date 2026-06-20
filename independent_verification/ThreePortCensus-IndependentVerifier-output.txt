@@ -1,0 +1,6 @@
+ideal families: 240
+nonideal families: 16
+signed-shuffle orbits: 22
+nonideal orbit sizes: [8, 8]
+fractional vertices: [(Fraction(1, 2), Fraction(1, 2), Fraction(1, 2))]
+PASS: all manuscript n=3 census targets reproduced exactly.

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+.DS_Store
+n5_orbit_census_20260610/reps_b5_rust.bin
+n5_orbit_census_20260610/b5_rep_eval_batches.jsonl

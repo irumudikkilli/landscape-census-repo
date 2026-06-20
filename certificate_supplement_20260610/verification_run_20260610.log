@@ -1,0 +1,19 @@
+[  0.00s] hash ok computational_supplement_20260610/sag.py
+[  0.00s] hash ok computational_supplement_20260610/analysis.py
+[  0.00s] hash ok computational_supplement_20260610/reproduction_run_20260610.log
+[  0.00s] hash ok n5_probe_20260610/n5_probe_results_20260610.json
+[  0.00s] hash ok n5_orbit_census_20260610/reps_b5_rust.bin
+[  0.00s] hash ok n5_orbit_census_20260610/b5_rep_eval_batches.jsonl
+[  0.00s] hash ok n5_orbit_census_20260610/b5_rep_eval_summary.json
+[  0.00s] Burnside ok n=3 22
+[  0.01s] Burnside ok n=4 402
+[  0.09s] Burnside ok n=5 1228158
+[  0.41s] B4 denominator spectrum ok
+[ 35.86s] finite census claims ok
+[ 35.92s] certificate ok named_4_to_3_universal_counterexample
+[ 35.93s] certificate ok signed_complement_failure_n3
+[ 35.93s] certificate ok odd_cycle_seam_m3_m5
+[ 35.93s] certificate ok n5_determinant_4
+[ 35.93s] certificate ok n5_determinant_5
+[ 35.93s] B5 summary ok
+[ 35.93s] PASS compact certificate packet

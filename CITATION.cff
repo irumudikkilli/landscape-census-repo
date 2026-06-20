@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Signed Admission Geometry — Computational Census"
+message: "Computational supplement; please also cite the book and the Discrete Applied Mathematics submission."
+type: software
+authors:
+  - family-names: Ravindran
+    given-names: K.
+version: "2026-06-20"
+date-released: "2026-06-20"
+license: MIT

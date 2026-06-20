@@ -1,0 +1,132 @@
+{
+  "schema": "asymmetric-elimination-certificate-packet-20260610",
+  "claims": {
+    "burnside_region_orbits": {
+      "3": 22,
+      "4": 402,
+      "5": 1228158
+    },
+    "finite_census": {
+      "n3_integral": 240,
+      "n4_integral": 39416,
+      "n3_region_count": 256,
+      "n4_region_count": 65536,
+      "existential_identity_failures": 0,
+      "existential_integrality_violations": 0,
+      "universal_violating_pairs": 5632,
+      "universal_violating_regions": 4864,
+      "universal_pair_orbits": 27,
+      "universal_region_orbits": 27,
+      "face_lemma_failures": 0,
+      "face_lemma_triples": 262144,
+      "integral_mixed_pairs": 124152,
+      "integral_mixed_safe": 118520,
+      "integral_mixed_violating": 5632,
+      "odd_triangle_classification_mismatches": 0,
+      "n3_stable": 240,
+      "n4_stable": 47888,
+      "n3_hereditary": 20,
+      "n4_hereditary": 168,
+      "hereditary_instabilities": 0,
+      "n3_nonintegral_reachable": 16,
+      "n3_nonintegral_total": 16,
+      "n4_nonintegral_orbits_reachable": 155,
+      "n4_nonintegral_orbits_total": 155,
+      "n4_min_seam_distribution": {
+        "2": 105,
+        "3": 22,
+        "4": 26,
+        "5": 1,
+        "6": 1
+      }
+    },
+    "b4_denominator_spectrum_by_orbit": {
+      "()": 1,
+      "(1,)": 246,
+      "(1, 2)": 137,
+      "(1, 2, 3)": 11,
+      "(1, 3)": 7
+    },
+    "b4_manuscript_denominator_table": {
+      "1": 247,
+      "1,2": 137,
+      "1,2,3": 11,
+      "1,3": 7
+    },
+    "b5_denominator_spectrum_by_orbit": {
+      "()": 1,
+      "(1,)": 127703,
+      "(1, 2)": 786263,
+      "(1, 2, 3)": 258477,
+      "(1, 2, 3, 4)": 26501,
+      "(1, 2, 3, 4, 5)": 30,
+      "(1, 2, 3, 5)": 4542,
+      "(1, 2, 4)": 4830,
+      "(1, 2, 5)": 619,
+      "(1, 3)": 19131,
+      "(1, 3, 4)": 1,
+      "(1, 4)": 60
+    },
+    "b5_denominator_4plus_orbits": 36583,
+    "b5_denominator_5_orbits": 5191,
+    "b5_max_denominator": 5
+  },
+  "hash_artifacts": {
+    "computational_supplement_20260610/sag.py": "4f707aa60506db283cfa106add40afbd6a6473f56a41a8f038192d72398e98ca",
+    "computational_supplement_20260610/analysis.py": "350c04a521c3ccaa1ff8b6476027163cd33e395a93306236d8a3e87bea916f8f",
+    "computational_supplement_20260610/reproduction_run_20260610.log": "e952bee130b104a29be965fc03206fbbbc8459bca90d05ade7939752bfaf229c",
+    "n5_probe_20260610/n5_probe_results_20260610.json": "a7aa60c1ecd62010225e6489423bfc147b44c8ee854e26a0d21fc0a07fbb53fc",
+    "n5_orbit_census_20260610/reps_b5_rust.bin": "feda61b119ec53bd697897387f3df9806643a43ac136308cf8a9ddab71629ce4",
+    "n5_orbit_census_20260610/b5_rep_eval_batches.jsonl": "d9f539488d118028d0f2468858a0fc3ddc5a88bfd1c41639a289187864457458",
+    "n5_orbit_census_20260610/b5_rep_eval_summary.json": "589b9b4729dedf93aca7c415e6aac356fd77611e0d0fa3847bf0d98f0f3a7af9"
+  },
+  "certificates": [
+    {
+      "id": "named_4_to_3_universal_counterexample",
+      "type": "projection_fractional",
+      "n_up": 4,
+      "hidden": 3,
+      "upstairs_region_intervals": [[3, 15], [5, 7], [14, 15]],
+      "upstairs_integral": true,
+      "downstairs_can": [[3, 7], [5, 7], [6, 7]],
+      "downstairs_integral": false,
+      "downstairs_vertex": ["1/2", "1/2", "1/2"]
+    },
+    {
+      "id": "signed_complement_failure_n3",
+      "type": "complement_integrality",
+      "n": 3,
+      "region_states": [0, 3, 5, 6, 7],
+      "region_integral": false,
+      "complement_integral": true
+    },
+    {
+      "id": "odd_cycle_seam_m3_m5",
+      "type": "odd_cycle_seam_family_instances",
+      "cycle_lengths": [3, 5],
+      "parent_integral": true,
+      "visible_integral": false,
+      "visible_vertex": "all-half"
+    },
+    {
+      "id": "n5_determinant_4",
+      "type": "fractional_vertex_determinant",
+      "n": 5,
+      "region": 2919820810,
+      "canonical_intervals": [[1, 11], [10, 15], [10, 27], [3, 27], [9, 31]],
+      "point": ["1/2", "3/4", "1/4", "1/2", "1/4"],
+      "determinant": "-4",
+      "spectrum": [1, 2, 4]
+    },
+    {
+      "id": "n5_determinant_5",
+      "type": "fractional_vertex_determinant",
+      "n": 5,
+      "region": 65919,
+      "canonical_intervals": [[0, 3], [0, 5], [0, 6], [0, 8], [0, 16]],
+      "point": ["1/5", "1/5", "1/5", "2/5", "2/5"],
+      "determinant": "-5",
+      "spectrum": [1, 2, 3, 5]
+    }
+  ]
+}
