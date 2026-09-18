@@ -4,7 +4,33 @@ message: "Computational supplement; please cite the book and the Variable Elimin
 type: software
 authors:
   - family-names: Ravindran
-    given-names: K.
-version: "2026-06-20"
-date-released: "2026-06-20"
+    given-names: Kuppusamy
+    orcid: "https://orcid.org/0009-0006-3808-8863"
+    affiliation: "Independent Researcher, Limerick, Ireland"
+version: "1.0.0"
+date-released: "2026-09-18"
 license: MIT
+repository-code: "https://github.com/irumudikkilli/landscape-census-repo"
+keywords:
+  - signed admission geometry
+  - prime implicates
+  - integral polyhedra
+  - exact rational arithmetic
+  - finite census
+  - Boolean constraint relaxation
+abstract: >-
+  Exact-arithmetic computational supplement for the finite census results in
+  Part V of the book "The Landscape Is the Meaning" and in the preprint
+  "Variable Elimination for Prime-Implicate 0-1 Relaxations of Boolean
+  Constraints". Every count is produced by exact rational arithmetic with no
+  floating point. The three-port census (240 signed-ideal of 256 regimes, 22
+  signed-shuffle orbits, the sixteen non-ideal regimes in two orbits of eight,
+  fractional vertex (1/2,1/2,1/2)) is reproducible from the Python standard
+  library alone, with no third-party dependency and no network; an independent
+  third-party reimplementation and its recorded output are included. The
+  four- and five-port material, the recorded certificates and the n=5 orbit
+  census are also here, the certificate verifier requiring pycddlib.
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.22809041
+    description: "Variable Elimination for Prime-Implicate 0-1 Relaxations of Boolean Constraints (preprint)"
