@@ -3,7 +3,7 @@
 Exact-arithmetic computational supplement for the finite census results in:
 
 - **Book:** *The Landscape Is the Meaning*, Part V (Chapters 11–12), "Counting the Desert."
-- **Paper:** *Variable Elimination for Prime-Implicate 0-1 Relaxations of Boolean Constraints* (K. Ravindran), submitted to *Discrete Applied Mathematics*.
+- **Paper:** *Variable Elimination for Prime-Implicate 0-1 Relaxations of Boolean Constraints* (K. Ravindran). Public preprint: Zenodo, DOI [10.5281/zenodo.22809041](https://doi.org/10.5281/zenodo.22809041).
 
 Every count below is produced by **exact rational arithmetic** (no floating point) and is reproducible by re-running the scripts here — by any reader, on any machine, with no dependence on a particular AI model. An **independent third-party reimplementation** (an adversarial external review, 20 June 2026) reproduced the entire *n* = 3 census from scratch with **zero third-party dependencies**; its script and recorded output are in [`independent_verification/`](independent_verification/).
 
@@ -103,4 +103,4 @@ The two large generated binaries (`reps_b5_rust.bin`, `b5_rep_eval_batches.jsonl
 
 ## License & citation
 
-Code and certificates are released under MIT (see `LICENSE`; change if you prefer). Please cite the book and the *Discrete Applied Mathematics* submission — see `CITATION.cff`.
+Code and certificates are released under MIT (see `LICENSE`). Please cite the book and the Variable Elimination preprint (DOI 10.5281/zenodo.22809041) — see `CITATION.cff`.

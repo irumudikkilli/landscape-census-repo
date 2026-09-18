@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 title: "Signed Admission Geometry — Computational Census"
-message: "Computational supplement; please also cite the book and the Discrete Applied Mathematics submission."
+message: "Computational supplement; please cite the book and the Variable Elimination preprint, DOI 10.5281/zenodo.22809041."
 type: software
 authors:
   - family-names: Ravindran
